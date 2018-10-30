@@ -1,0 +1,81 @@
+
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    /* border: 1px solid silver; */
+    font-family: Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+body {
+    /* margin: 5px; */
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 7%;
+}
+
+
+#Heading, .tel {
+    text-shadow: 0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    /* border-top:  2px solid white; */
+    vertical-align: middle;
+    font-size: 1em;
+
+}
+
+nav {
+    margin: 50px 15%;
+    text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    border-top:  2px solid white;
+    border-bottom:  2px solid white;
+    background: rgba(0,0,0,0.20);
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    /* opacity: 0.6; */
+}
+li {
+    /* margin: 0 2%; */
+    /* margin-right: 20%; */
+    font-weight: 700;
+    /* display: inline; */
+    /* color: blue */
+}
+#menu_item {
+    /* margin-left: 20%; */
+}
+
+#my-carousel {
+    
+}
+
+.mainside {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.text-white {
+    /* border: 1px solid; */
+}
+
+@media screen and (min-width: 700px) {
+    #Heading {
+        font-size: 28px;
+    }
+}       
+@media screen and (min-width: 600px) and (max-width: 699px) {
+    #Heading {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    #Heading {
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    #Heading {
+        font-size: 14px;
+    }
+}
