@@ -17,7 +17,7 @@
 <body>
 
   <!-- Header-->
-  <header class="sample">
+  <header class="container-fluid">
     <!-- <div class="container position-absotute fixed-top">
       <div class="text-white">Инженерные Технологии</div>
       <div class="text-white">+7 (909) 03-888-33</div>
@@ -36,17 +36,17 @@
       <nav class="nav position-absotute fixed-top">
 
         <li class="nav-item" id="menu_item">
-          <a class="nav-link active text-white" href="/index.html" active>О Компании</a>
+          <a class="nav-link active text-white" href="/index.html">О Компании</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-white" href="/production.html">Производство</a>
+          <a class="nav-link active text-white" href="/production.html" active>Производство</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link active text-white" href="#">Продукция</a>
+          <a class="nav-link active text-white" href="/product.html">Продукция</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Услуги</a>
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Услуги</a>
           <div class="dropdown-menu text-white" aria-labelledby="navbarDropdownMenuLink">
               <a class="nav-link text-white" href="#">Лаборатория</a>
               <a class="nav-link text-white" href="#">Мехобработка</a>
@@ -97,8 +97,31 @@
 
   <div class="mainside">
     <!-- Main Content -->
-    <main class="sample">
-      
+    <main class="container d-flex">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
 
 
     </main>
@@ -112,7 +135,7 @@
 
   </div>
   <!-- footer-->
-  <footer class="sample">
+  <footer class="fixed-bottom">
 
   </footer>
   <!-- footer-->
