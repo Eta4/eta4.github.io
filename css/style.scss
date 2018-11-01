@@ -19,7 +19,9 @@ header>#header-top,nav {
     color: white;
     text-shadow: $text_shadow;
     
-
+        a {
+            color: white;
+        }
 
         nav {
           margin: 50px 15%;

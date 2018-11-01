@@ -30,11 +30,15 @@ nav {
   text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
   border-top:  2px solid white;
   border-bottom:  2px solid white;
-  background: rgba(0,0,0,0.20);
+  background: rgba(0,0,0,0.30);
   flex-wrap: nowrap;
   justify-content: center;
 
   /* opacity: 0.6; */
+}
+
+header a {
+  color: white;
 }
 li {
   /* margin: 0 2%; */
@@ -43,12 +47,9 @@ li {
   /* display: inline; */
   /* color: blue */
 }
-#menu_item {
-  /* margin-left: 20%; */
-}
+.dropdown-menu {
+  background: rgba(0,0,0,0.50);
 
-#my-carousel {
-  
 }
 
 .mainside {
